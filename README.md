@@ -31,7 +31,7 @@ g++ -std=c++17 -O2 -o build/hvlcs src/hvlcs.cpp
 
 # Question 1
 
-## RTo rerun the empirical comparison benchmark on the included test suite, create a virtual Python environment and run:
+## To rerun the empirical comparison benchmark on the included test suite, create a virtual Python environment and run:
 
 ```
 python benchmark.py
