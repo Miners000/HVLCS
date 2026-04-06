@@ -41,18 +41,7 @@ The DP solution demonstrates consistent and efficient performance across all tes
 
 Let dp[i][j] be the maximum total value of a common subsequence between A[0..i-1] and B[0..j-1].
 
-Base cases:
-```
-dp[0][j] = 0,   dp[i][0] = 0
-```
-because an empty prefix has no non-empty common subsequence.
-
-For i = 1..n and j = 1..m:
-```
-dp[i][j] = max(dp[i-1][j], dp[i][j-1])
-if A[i-1] == B[j-1]:
-    dp[i][j] = max(dp[i][j], dp[i-1][j-1] + v(A[i-1]))
-```
+OPT(i, j) = {dp[0, j] if i = 0, dp[i, 0] if j = 0, max(dp[i-1][j-1] + v_i, max(dp[i-1][j], dp[i][j-1])) otherwise}
 
 Why this is correct (short):
 - Any optimal solution for prefixes (i, j) must do one of these: skip A[i-1], skip B[j-1], or (if equal) take both characters.
