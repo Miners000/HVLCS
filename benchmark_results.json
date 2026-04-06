@@ -1,0 +1,92 @@
+[
+  {
+    "test_file": "test01.in",
+    "K": 5,
+    "len_A": 25,
+    "len_B": 25,
+    "time_ms": 12.037199980113655,
+    "max_value": 104,
+    "subseq_len": 13
+  },
+  {
+    "test_file": "test02.in",
+    "K": 5,
+    "len_A": 50,
+    "len_B": 50,
+    "time_ms": 11.050600005546585,
+    "max_value": 152,
+    "subseq_len": 27
+  },
+  {
+    "test_file": "test03.in",
+    "K": 5,
+    "len_A": 100,
+    "len_B": 100,
+    "time_ms": 12.34329998260364,
+    "max_value": 288,
+    "subseq_len": 54
+  },
+  {
+    "test_file": "test04.in",
+    "K": 10,
+    "len_A": 30,
+    "len_B": 30,
+    "time_ms": 9.284600004320964,
+    "max_value": 100,
+    "subseq_len": 14
+  },
+  {
+    "test_file": "test05.in",
+    "K": 10,
+    "len_A": 75,
+    "len_B": 75,
+    "time_ms": 10.599000001093373,
+    "max_value": 151,
+    "subseq_len": 31
+  },
+  {
+    "test_file": "test06.in",
+    "K": 10,
+    "len_A": 150,
+    "len_B": 150,
+    "time_ms": 9.757099993294105,
+    "max_value": 335,
+    "subseq_len": 62
+  },
+  {
+    "test_file": "test07.in",
+    "K": 15,
+    "len_A": 40,
+    "len_B": 40,
+    "time_ms": 9.944899997208267,
+    "max_value": 57,
+    "subseq_len": 13
+  },
+  {
+    "test_file": "test08.in",
+    "K": 15,
+    "len_A": 100,
+    "len_B": 100,
+    "time_ms": 8.891499979654327,
+    "max_value": 246,
+    "subseq_len": 33
+  },
+  {
+    "test_file": "test09.in",
+    "K": 20,
+    "len_A": 50,
+    "len_B": 50,
+    "time_ms": 10.718800011090934,
+    "max_value": 133,
+    "subseq_len": 18
+  },
+  {
+    "test_file": "test10.in",
+    "K": 20,
+    "len_A": 120,
+    "len_B": 120,
+    "time_ms": 10.44669997645542,
+    "max_value": 255,
+    "subseq_len": 38
+  }
+]
